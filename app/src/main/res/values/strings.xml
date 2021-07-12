@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyMenuClientApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_string">Enter email address</string>
+    <string name="first_name_string">enter first name</string>
+    <string name="last_name_string">Enter last name</string>
+    <string name="persons_number_hint">Enter persons number</string>
+    <string name="customer_number_hint">Enter customer number</string>
+    <string name="create_button_text">Create</string>
+    <string name="close_button_text">X</string>
+</resources>

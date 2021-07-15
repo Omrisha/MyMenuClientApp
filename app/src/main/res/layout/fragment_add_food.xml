@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    tools:context=".AddFoodFragment">
+
+    <Button
+        android:id="@+id/buttonFoodExit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_design"
+        android:text="@string/close_button_text"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/meal_name_text_view"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/frame"
+        android:hint="@string/meal_name_hint"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/secondaryTextColor"
+        android:textColorHint="@color/secondaryTextColorTrans" />
+
+    <Button
+        android:id="@+id/create_meal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_button_text"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_design"
+        android:textColor="@color/secondaryTextColor"
+        android:padding="@dimen/padding"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

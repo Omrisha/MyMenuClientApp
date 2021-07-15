@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, FoodActivity::class.java)
             startActivity(intent)
         }
+
+        val employees = findViewById<Button>(R.id.employees_button)
+        employees.setOnClickListener {
+            val intent = Intent(this, EmployeeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun configureAmplify() {

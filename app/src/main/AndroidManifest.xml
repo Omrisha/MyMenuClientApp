@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMenuClientApp">
         <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".EmployeeActivity" />
         <activity android:name=".ClientsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

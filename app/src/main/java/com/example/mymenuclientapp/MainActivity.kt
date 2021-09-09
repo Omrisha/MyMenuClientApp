@@ -9,7 +9,13 @@ import com.amplifyframework.AmplifyException
 import com.amplifyframework.api.aws.AWSApiPlugin
 import com.amplifyframework.core.Amplify
 import com.amplifyframework.datastore.AWSDataStorePlugin
-
+/*
+Ari Kuznicki - 31750551
+Yahel Bar Noam  - 312321474
+Tal Turjeman - 318383973
+Nadav Halevy - 308249515
+Omri Shapira - 203554720
+*/
 class MainActivity : AppCompatActivity() {
 
 
